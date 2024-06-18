@@ -129,15 +129,9 @@ hr {
 .main-footer p {
   margin: 0;
 }
-@media screen and (max-width: 1160px) {
+@media screen and (width<=1160px) {
   .container {
     display: flex;
     flex-direction: column;
   }
 }
-/* @media screen and (max-width:1120){
-    .container{
-        height: 100vh;
-        width: 100vw;
-    }
-} */
